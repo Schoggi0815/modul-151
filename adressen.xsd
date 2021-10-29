@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="adressliste">
+		<xsd:complexType>
+			<xsd:sequence>
+			
+				<xsd:element name="adresse" maxOccurs="unbounded">
+					<xsd:complexType>
+						<xsd:sequence>
+						
+							<xsd:element name="name" type="xsd:string"/>
+							<xsd:element name="vorname" type="xsd:string"/>
+							<xsd:element name="strasse" type="xsd:string"/>
+							<xsd:element name="hausnummer" type="xsd:int"/>
+							<xsd:element name="telefonnummer" type="xsd:string"/>
+
+							<xsd:element name="nervensägen">
+								<xsd:complexType>
+									<xsd:sequence>
+										<xsd:element name="nervensäge" maxOccurs="unbounded" minOccurs="0">
+											<xsd:complexType>
+												<xsd:sequence>
+													<xsd:element name="name" type="xsd:string"/>
+													<xsd:element name="geburtsjahr" type="xsd:int"/>
+												</xsd:sequence>
+											</xsd:complexType>
+										</xsd:element>
+									</xsd:sequence>
+								</xsd:complexType>
+							</xsd:element>
+
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

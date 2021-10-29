@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<adressliste xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="adressen.xsd">
+
+	<adresse>
+		<name>muster</name>
+		<vorname>hans</vorname>
+		<strasse>mustergasse</strasse>
+		<hausnummer>20</hausnummer>
+		<telefonnummer>079 999 99 99</telefonnummer>
+		<nervensägen>
+			<nervensäge>
+				<name>Kind</name>
+				<geburtsjahr>1900</geburtsjahr>
+			</nervensäge>
+		</nervensägen>
+	</adresse>
+
+	<adresse>
+		<name>studer</name>
+		<vorname>eva</vorname>
+		<strasse>stadtgasse</strasse>
+		<hausnummer>15</hausnummer>
+		<telefonnummer>079 999 99 99</telefonnummer>
+		<nervensägen/>
+	</adresse>
+
+	<adresse>
+		<name>foo</name>
+		<vorname>bar</vorname>
+		<strasse>foobar</strasse>
+		<hausnummer>1</hausnummer>
+		<telefonnummer>079 999 99 99</telefonnummer>
+		<nervensägen/>
+	</adresse>
+
+	<adresse>
+		<name>nice</name>
+		<vorname>dope</vorname>
+		<strasse>dopestreet</strasse>
+		<hausnummer>69</hausnummer>
+		<telefonnummer>079 999 99 99</telefonnummer>
+		<nervensägen/>
+	</adresse>
+	
+</adressliste>
